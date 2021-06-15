@@ -3,9 +3,10 @@
     text-align: center;
 }
 textarea{
-    width: 20rem;
+    width: 80%;
     height: 10vh;
-    display: inline;
+    display: block;
     margin: 1rem;
     padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
 }
