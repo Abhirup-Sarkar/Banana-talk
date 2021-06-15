@@ -9,7 +9,7 @@ console.log(txtInput)
 function clickHandler(){
 
     console.log("clicked!");
-    console.log("input", txtInput.value);
+    console.log("input", txtInput.value)
    
 };
 
