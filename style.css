@@ -1,0 +1,11 @@
+
+.Heading{
+    text-align: center;
+}
+textarea{
+    width: 20rem;
+    height: 10vh;
+    display: inline;
+    margin: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
