@@ -12,7 +12,7 @@ function clickHandler(){
 
     console.log("clicked!");
     console.log("input", txtInput.value)
-   outputDiv.innerText = "apppp "+txtInput.value;
+   outputDiv.innerText = "Minion Translator:  "+txtInput.value;
 };
 
 btnTranslate.addEventListener("click",clickHandler)
