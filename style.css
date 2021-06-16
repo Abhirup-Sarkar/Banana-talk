@@ -1,33 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: #1E40AF;/* colors.blue 800 */
+    --seconday-color: #DBEAFE;/* colors.blue 100 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-.Heading{
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: var(--seconday-color);
+}
+
+.Heading {
+    text-align: center;
+    font-size: x-large;
+}
+
+textarea {
+    width: 80%;
+    height: 15vh;
+    display: block;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+
+
+
+    
+}
+
+#txt-output {
+    width: 80%;
+    height: 15vh;
+    display: block;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+
+}
+
+#btn-translate {
+    width: 30vh;
+    height: 7vh;
+    display: block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.output-heading {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: larger;
+}
+.navigation{
+    background-color: var(--primary-color);
+    
+    padding: 1rem 1rem;
+   
+    border-bottom-left-radius: 1rem;
+}
+footer{
+    background-color: var(--primary-color);
+    
+    padding: 1rem 1rem;
+   
+    border-top-right-radius: 1rem;
     text-align: center;
 }
-textarea{
-    width: 80%;
-    height: 10vh;
-    display: block;
-    margin: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-   
-    border: 1px solid black;
+.footer-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
 }
-#txt-output{
-    border: 1px solid black;
-    display: block;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-
-}
-#btn-translate{
-    display: block;
-    margin: 1rem;
-    padding: 0.5rem;
-    border: 1px solid black;
-}
-.output-heading{
-    margin: 1rem;
-    font-size: larger;
+.footer-text{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    
 }
