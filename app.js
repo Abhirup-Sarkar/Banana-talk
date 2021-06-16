@@ -23,7 +23,7 @@ function getTranslationURL(Sample) {
 function clickHandler() {
     console.log("button clicked");
     var input = txtInput.value;
-    txtOutput.innerText = "Your text will be translated here.";
+    txtOutput.innerText = "Translated Text......";
      
     fetch(getTranslationURL(input))
         .then(response => response.json())
